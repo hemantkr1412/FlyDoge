@@ -1,0 +1,199 @@
+#how-to-buy {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: 1100px;
+  }
+  
+  .how-to-buy-wrapper {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .how-to-buy-title {
+    margin-top: -9px;
+    text-shadow: 5px 8px 4px rgba(45, 45, 114, 0.5);
+    font-family: 'Peralta', Helvetica;
+    font-size: 80px;
+    color: #ffbc6c;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .how-to-buy-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+ 
+  
+  .how-to-buy-card {
+    width: 100%;
+    height: 349px;
+    background-color: rgba(249, 169, 74, 0.05);
+    border: 4px solid black;
+    border-bottom-width: 14px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+    /* overflow: hidden; */
+    gap: 1rem;
+    background-image: url('/src/assets/HowToCardBG1.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+  }
+
+  #how-to-buy-card1{
+    background-image: url('/src/assets/HowToCardBG1.svg'); 
+  }
+  #how-to-buy-card2{
+    background-image: url('/src/assets/HowToCardBG2.svg'); 
+  } #how-to-buy-card3{
+    background-image: url('/src/assets/HowToCardBG3.svg'); 
+  } #how-to-buy-card4{
+    background-image: url('/src/assets/HowToCardBG4.svg'); 
+  }
+
+
+  .how-to-buy-cardSub1{
+width:35%;
+  }
+
+  .how-to-buy-cardSub2{
+    width:60%;
+  }
+  
+  .how-to-buy-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .how-to-buy-card p {
+    font-family: 'Atma', Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2d2d72;
+    z-index: 2;
+    text-align: justify;
+    line-height: 1.4;
+    /* max-width: 367px; */
+  }
+  
+
+  .containerHowTo {
+    position: relative;
+    width: 180px; /* Adjust size as needed */
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .outer-square {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 31, 104, 1);
+    transform: rotate(23deg); /* Rotates the square */
+    border-radius: 35px; /* Rounded corners */
+  }
+  
+  .inner-rectangle {
+    width: 120px; /* Adjust size as needed */
+    height: 80px;
+    background-color: #FFA743; /* Orange color */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1; /* Keep above the rotated square */
+  }
+  
+  .inner-rectangle p {
+    font-size: 56px;
+    font-weight: bold;
+    color: #19197E; /* Dark blue for text */
+    margin: 0;
+  }
+
+  
+  @media (min-width: 1000px) {
+    .how-to-buy-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+ 
+  }
+  @media screen and (max-width: 1050px) {
+    #how-to-buy {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        height: 1600px;
+      }
+  }
+
+
+  @media screen and (max-width: 750px) {
+    .how-to-buy-title {
+        margin-top: -9px;
+        text-shadow: 5px 8px 4px rgba(45, 45, 114, 0.5);
+        font-family: 'Peralta', Helvetica;
+        font-size: 28px;
+        color: #ffbc6c;
+        text-align: center;
+        white-space: nowrap;
+    }
+    .containerHowTo {
+        position: relative;
+        width: 100px; /* Adjust size as needed */
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .how-to-buy-card {
+        padding: 0.6rem;
+      }
+      .outer-square {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(31, 31, 104, 1);
+        transform: rotate(23deg); /* Rotates the square */
+        border-radius: 35px; /* Rounded corners */
+      }
+      
+      .inner-rectangle {
+        width: 75px; /* Adjust size as needed */
+        height: 50px;
+        background-color: #FFA743; /* Orange color */
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 1; /* Keep above the rotated square */
+      }
+      .how-to-buy-card p {
+        font-size:1rem ;
+      }
+      
+      .inner-rectangle p {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #19197E; /* Dark blue for text */
+        margin: 0;
+      }
+    
+  }

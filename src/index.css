@@ -1,0 +1,13 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css?family=Atma:500,600|Peralta:400|Cabin+Sketch:700|Bubblegum+Sans:400");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+
+
+body {
+  margin: 0;
+}
+

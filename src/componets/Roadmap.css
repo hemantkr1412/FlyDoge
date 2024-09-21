@@ -1,0 +1,87 @@
+/* Section styling */
+.roadmap-section {
+    padding-top: 4rem;       /* Equivalent to py-16 */
+    padding-bottom: 4rem;
+    background-color: white; /* Equivalent to bg-white */
+    margin-top: 2.5rem;      /* Equivalent to mt-10 */
+    background-image: url('/src/assets/roadmapbg.svg'); /* Background image, equivalent to bg-roadmap-bg */
+    background-size: cover;  /* Equivalent to bg-cover */
+    min-height: 100vh;       /* Equivalent to min-h-screen */
+  }
+
+  .roadmap-section-mobile{
+    margin-top: 4rem;
+    display: none;
+    width: 100%;
+    background-image: url('/src/assets/tokenMobilBG.svg');
+    min-height: 100vh;      
+     /* Background image, equivalent to bg-roadmap-bg */
+    background-size: cover; 
+  }
+  
+  /* Container styling */
+  .roadmap-container {
+    max-width: 80rem;        /* Equivalent to max-w-7xl */
+    margin-left: auto;       /* Equivalent to mx-auto */
+    margin-right: auto;
+    padding-left: 1rem;      /* Equivalent to px-4 */
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;               /* Equivalent to space-y-4 */
+  }
+  
+  /* Title styling */
+  .roadmap-title {
+    padding: 0.5rem;         /* Equivalent to p-2 */
+    margin-top: 2rem;        /* Equivalent to mt-8 */
+    font-family: 'Peralta', Helvetica;
+    font-weight: normal;
+    font-size: 80px;         /* Equivalent to text-[80px] */
+    color: #ffbc6c;          /* Equivalent to text-[#ffbc6c] */
+    text-align: center;      /* Equivalent to text-center */
+    line-height: 1.12;       /* Equivalent to leading-[89.6px] */
+    text-shadow: 5px 8px 4px #2d2d7280;
+    -webkit-text-stroke: 5px #1f1f67;
+    white-space: nowrap;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+  }
+  
+  /* Image styling */
+  .roadmap-image {
+    max-width: 100%;
+  }
+
+  .ellipse {
+    width: 200px; /* 80% of the viewport width */
+    height: 100px; /* 40% of the viewport height */
+    background-color: blue;
+    border-radius: 50% / 40%; /* Creates an ellipse shape */
+}
+
+  
+
+
+
+  @media screen and (max-width: 750px) {
+    .roadmap-section{
+        display: none;
+    }
+    
+  .roadmap-section-mobile{
+    display: block;
+}
+.roadmap-title {
+    font-size: 30px;
+    text-shadow: 5px 8px 4px #2d2d7280;
+    -webkit-text-stroke: 2px #1f1f67;
+}
+  }
+
+  

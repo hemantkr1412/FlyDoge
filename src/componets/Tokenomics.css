@@ -1,0 +1,295 @@
+/* Tokenomics Section */
+#tokenomics {
+    padding-top: 64px; /* py-16 */
+    padding-bottom: 64px;
+    width: 100%;
+  }
+  
+  #TP1 {
+    width: 90%;
+    max-height: 521px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+    background-image: url('/src/assets/tokonomicsBG.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border: 5px solid black;
+  }
+
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+}
+  
+  
+
+
+
+
+
+  
+  #TP1C1 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* space-y-4 */
+    height: auto;
+  }
+  
+  /* Title Styling */
+  .tokenomics-title {
+    margin-top: -9px;
+    margin-left: -8px;
+    -webkit-text-stroke: 5px #1f1f67;
+    font-size: 80px;
+    line-height: 89.6px;
+    white-space: nowrap;
+    position: relative;
+    text-shadow: 5px 8px 4px rgba(45, 45, 114, 0.5);
+    font-family: 'Peralta', Helvetica, sans-serif;
+    color: #ffbc6c;
+  }
+  
+  /* Card Styles */
+  .tokenomics-card {
+    width: 220px;
+    height: 170px;
+    background-color: black;
+    border-radius: 28px;
+    position: relative;
+  }
+  
+  .tokenomics-card-inner {
+    width: 209px;
+    height: 152px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+  }
+  
+  .tokenomics-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 8px; */
+    position: absolute;
+    top: 26px;
+    left: 49px;
+  }
+  
+  /* Text for card headers */
+  .tokenomics-card-header {
+    text-shadow: 1px 3px 4px #ffbc6d;
+    font-family: 'Cabin Sketch', Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 32px;
+    line-height: 44.8px;
+    text-align: center;
+  }
+  
+  /* Text for card values */
+  .tokenomics-card-value {
+    text-shadow: 1px 3px 4px #ffbc6d;
+    font-family: 'Atma', Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 36px;
+    line-height: 50.4px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  /* CA Box */
+  .tokenomics-ca {
+    width: 716px;
+    height: 81px;
+    background-color: black;
+    border-radius: 28px;
+    position: relative;
+  }
+  
+  .tokenomics-ca-inner {
+    width: 704px;
+    height: 62px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+  }
+  
+  .tokenomics-ca-text {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 13px;
+    left: 31px;
+  }
+  
+  .tokenomics-ca-prefix,
+  .tokenomics-ca-address {
+    text-shadow: 1px 3px 4px #ffbc6d;
+    font-size: 32px;
+    line-height: 44.8px;
+  }
+  
+  .tokenomics-ca-prefix {
+    font-family: 'Cabin Sketch', Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  .tokenomics-ca-address {
+    font-family: 'Atma', Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+
+  .cardContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.imageContainer{
+    width:30%
+
+}
+
+.tokenMobileImg{
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .cardContainer{
+       flex-direction: column;
+       gap: 8px;
+    }
+    #TP1 {
+        width: 90%;
+        max-height: 800px;
+    }
+    .tokenomics-title {
+        -webkit-text-stroke: 2px #1f1f67;
+        font-size: 28px;
+    }
+    .tokenomics-card {
+        width: 120px;
+        height: 100px;
+        background-color: black;
+        border-radius: 18px;
+        position: relative;
+      }
+      .tokenomics-card-inner {
+        width: 109px;
+        height: 92px;
+        background-color: white;
+        border-radius: 20px;
+        position: absolute;
+        top: 6px;
+        left: 6px;
+      }
+
+      .tokenomics-card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* gap: 8px; */
+        position: relative;
+        top: 0px;
+        left: 0px;
+      }
+      
+      /* Text for card headers */
+      .tokenomics-card-header {
+        text-shadow: 1px 3px 4px #ffbc6d;
+        font-family: 'Cabin Sketch', Helvetica, sans-serif;
+        font-weight: bold;
+        color: black;
+        font-size: 14px;
+        line-height: 44.8px;
+        text-align: center;
+      }
+      
+      /* Text for card values */
+      .tokenomics-card-value {
+        text-shadow: 1px 3px 4px #ffbc6d;
+        font-family: 'Atma', Helvetica, sans-serif;
+        font-weight: 600;
+        color: black;
+        font-size: 32px;
+        line-height: 50.4px;
+        text-align: center;
+        white-space: nowrap;
+      }
+
+
+      .tokenomics-ca {
+        width: 716px;
+        height: 81px;
+        background-color: black;
+        border-radius: 28px;
+        position: relative;
+      }
+      
+      .tokenomics-ca {
+        width: 100%;
+        height: 45px;
+        background-color: black;
+        border-radius: 28px;
+        position: relative;
+      }
+      
+      .tokenomics-ca-inner {
+        width: 96%;
+        height: 32px;
+        background-color: white;
+        border-radius: 20px;
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .tokenomics-ca-prefix,
+      .tokenomics-ca-address {
+        text-shadow: 1px 3px 4px #ffbc6d;
+        font-size: 0.8rem;
+        line-height: 19.8px;
+      }
+      #TP1C1{
+        width: 100%;
+      }
+      .imageContainer{
+        display: none;
+        
+    }
+    .tokenomics-ca-text {
+        top: 0px;
+        left: 0px;
+    }
+    .tokenMobileImg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .tokenMobileImg img{
+        width: 200px;
+        height: 200px;
+    }
+ 
+}
