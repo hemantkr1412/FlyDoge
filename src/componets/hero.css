@@ -173,6 +173,7 @@ width: 60%;
     letter-spacing: 0.72px;
     line-height: 50.4px;
     white-space: nowrap;
+    font-size: 1.2rem;
   }
 
   .joinus-mobile{
@@ -327,10 +328,10 @@ width: 60%;
         height: 118px;
     }
     .info-title {
-        font-size: 0.8rem;
+        font-size:1rem;
     }
     .info-value {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
    
     .title {

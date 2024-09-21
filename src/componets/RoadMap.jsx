@@ -23,7 +23,7 @@ const Roadmap = () => {
         gap:"4rem"
        }}>
           <img  src="/ellips.svg" />
-          <img src="/ellips.svg" />
+          <img src="/ellips2.svg" />
        </div>
 
     </section>
