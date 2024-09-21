@@ -49,6 +49,7 @@
   
   .frame {
     flex: 0 0 auto;
+    cursor: pointer;
   }
   
   .buy-container2 {

@@ -86,12 +86,12 @@ const Howtobuy = () => {
               <p style={{
                 marginTop:"5px"
               }}>
-                3. Go to Settings, enable Expert Mode, and set slippage to 7% at least.
+                3. Go to Settings, enable Expert Mode, and set slippage to 7%.
               </p>
               <p style={{
                 marginTop:"5px"
               }}>
-                5.Click Swap
+                4.Click Swap
               </p>
             </div>
           </div>

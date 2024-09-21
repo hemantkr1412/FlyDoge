@@ -92,7 +92,7 @@ const Navbar = () => {
 
         <div className="menu-button">
         <button className="toggle-button" onClick={toggleMenu}>
-            <svg
+           {!isMenuOpen ? <svg
             className="icon"
             fill="none"
             stroke="currentColor"
@@ -104,6 +104,14 @@ const Navbar = () => {
                 strokeWidth="2"
                 d="M4 6h16M4 12h16m-7 6h7"></path>
             </svg>
+            :
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" width="24" height="24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+               <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+           }
+
+
         </button>
         </div>
 
@@ -156,7 +164,9 @@ const Navbar = () => {
 
       {/* BuyDoge Button */}
       <div class="buy-container">
-        <div class="buy-text">
+        <div onClick={() =>{
+            window.open("https://star-fleet.io/astra/swap")
+        }} class="buy-text">
             Buy $ADOGE
         </div>
         </div>

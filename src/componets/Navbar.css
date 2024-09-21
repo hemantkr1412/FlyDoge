@@ -69,6 +69,7 @@
     justify-content: center;
     background-color: #ff8c00;
     transition: background-color 0.3s ease; /* To handle the hover effect smoothly */
+    cursor: pointer;
   }
   
   .buy-container:hover {

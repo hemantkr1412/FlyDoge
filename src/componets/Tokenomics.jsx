@@ -1,7 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import './Tokenomics.css'; // Import your CSS file
+import { FaCopy } from 'react-icons/fa';
 
 const Tokenomics = () => {
+  const address = '0x48437113D6d4808bD281F50eEe4b87D4c58D2557';
+
+  // const copyToClipboard = () => {
+  //   navigator.clipboard.writeText(address)
+  //     .then(() => {
+  //       alert('Address copied to clipboard!');
+  //     })
+  //     .catch(err => {
+  //       console.error('Failed to copy: ', err);
+  //     });
+  // };
+  const [copySuccess, setCopySuccess] = useState('');
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(address)
+      .then(() => {
+        setCopySuccess('Copied');
+        setTimeout(() => setCopySuccess(''), 2000); // Hide message after 2 seconds
+      })
+      .catch(err => {
+        setCopySuccess('Failed to copy!');
+        setTimeout(() => setCopySuccess(''), 2000); // Hide message after 2 seconds
+      });
+  };
+
   return (
     <section id='tokenomics'>
       <div id='TP1'>
@@ -50,6 +76,14 @@ const Tokenomics = () => {
                 <div className="tokenomics-ca-address">
                 0x48437113D6d4808bD281F50eEe4b87D4c58D2557
                 </div>
+                <div className="tokenomics-ca-copy-icon" onClick={copyToClipboard} style={{ cursor: 'pointer', marginLeft: '10px' }}>
+                  <FaCopy /> {/* Add the copy icon here */}
+                </div>
+                {copySuccess && (
+                  <div className="copy-notification" style={{ color: 'green', marginTop: '10px',fontFamily:"1rem" ,fontWeight:"700"}}>
+                    {copySuccess}
+                  </div>
+                )}
               </div>
             </div>
           </div>

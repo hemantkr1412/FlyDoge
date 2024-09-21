@@ -9,8 +9,12 @@ const Footer = () => {
           <img src={"/footerlogo.svg"} alt="" />
         </div>
         <div className="footer-right">
-          <img className="frame" alt="Frame" src="Xicon.svg" />
-          <img className="frame" alt="Frame" src="TeliIcon.svg" />
+          <img onClick={() =>{
+            window.open("https://x.com/AirDogeBarks")
+          }} className="frame" alt="Frame" src="Xicon.svg" />
+          <img onClick={() =>{
+            window.open("https://t.me/+eOkt0nyuxWthYjE9")
+          }} className="frame" alt="Frame" src="TeliIcon.svg" />
           {/* <div className="buy-container2">
             <div className="buy-content2">
               <div className="buy-text2">Buy $ADOGE</div>

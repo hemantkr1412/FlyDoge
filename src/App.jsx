@@ -43,6 +43,7 @@ function App() {
         // Format the numbers
         data.curr_tokens_burnt = formatNumber(data.curr_tokens_burnt);
         data.current_supply = formatNumber(data.current_supply);
+        data.market_cap = formatNumber(data.market_cap);
 
         setDogeData(data); // Save formatted data to state
       } catch (err) {
