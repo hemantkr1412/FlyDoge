@@ -28,7 +28,7 @@ const Howtobuy = () => {
             <div className="containerHowTo">
                     <div className="outer-square"></div>
                     <div className="inner-rectangle">
-                    <p>3</p>
+                    <p>2</p>
                     </div>
                 </div>
             </div>
