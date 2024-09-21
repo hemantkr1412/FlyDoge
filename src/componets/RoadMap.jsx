@@ -8,7 +8,7 @@ const Roadmap = () => {
     <section id="roadmap" className="roadmap-section">
       <div className="roadmap-container">
         <div className="roadmap-title">ROADMAP</div>
-        <img src={"/src/assets/rdmap.svg"} alt="Roadmap" className="roadmap-image" />
+        <img src={"/rdmap.svg"} alt="Roadmap" className="roadmap-image" />
       </div>
     </section>
     <section id="roadmap" className="roadmap-section-mobile">
@@ -22,8 +22,8 @@ const Roadmap = () => {
         flexDirection:"column",
         gap:"4rem"
        }}>
-          <img  src="/src/assets/ellips.svg" />
-          <img src="/src/assets/ellips.svg" />
+          <img  src="/ellips.svg" />
+          <img src="/ellips.svg" />
        </div>
 
     </section>
