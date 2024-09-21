@@ -8,7 +8,7 @@ const Roadmap = () => {
     <section id="roadmap" className="roadmap-section">
       <div className="roadmap-container">
         <div className="roadmap-title">ROADMAP</div>
-        <img src={"/src/assets/rdmap2.svg"} alt="Roadmap" className="roadmap-image" />
+        <img src={"/src/assets/rdmap.svg"} alt="Roadmap" className="roadmap-image" />
       </div>
     </section>
     <section id="roadmap" className="roadmap-section-mobile">
