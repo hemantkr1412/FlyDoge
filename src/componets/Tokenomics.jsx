@@ -39,7 +39,7 @@ const Tokenomics = () => {
             </div>
           </div>
             <div className="tokenMobileImg">
-                  <img src={"/src/assets/token1.svg"} alt='Tokenomics' />
+                  <img src={"/token1.svg"} alt='Tokenomics' />
             </div>
           </div>
 
@@ -57,7 +57,7 @@ const Tokenomics = () => {
         {/* Right Side */}
         <div
         className="imageContainer">
-            <img src={"/src/assets/token1.svg"} alt='Tokenomics' />
+            <img src={"/token1.svg"} alt='Tokenomics' />
         </div>
         
       </div>
