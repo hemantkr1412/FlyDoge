@@ -5,7 +5,7 @@ const Hero = () =>{
     <div className="herosectionMain">
         <div className="herosectionTop">
             <div className="herosectionTopSubdiv1">
-                <img src="/src/assets/herosectionImage.svg" />
+                <img src="/herosectionImage.svg" />
             </div>
             <div className="herosectionTopSubdiv2">
             <div class="container">
@@ -64,7 +64,7 @@ const Hero = () =>{
                 </div>
                 <img
                     // id='C2I'
-                    src={"/src/assets/aboutdog.svg"}
+                    src={"/aboutdog.svg"}
                     alt='C2 Image'
                 />
                 </div>
