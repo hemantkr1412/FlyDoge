@@ -3,7 +3,7 @@ import "./howtobuy.css"
 
 const Howtobuy = () => {
   return (
-    <section id="how-to-buy" className="how-to-buy-section">
+    <section id="how_to_buy" className="how-to-buy-section">
       <div className="how-to-buy-wrapper">
         <div className="how-to-buy-title">HOW TO BUY?</div>
         <div className="how-to-buy-grid">

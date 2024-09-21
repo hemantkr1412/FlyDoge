@@ -162,7 +162,7 @@
     border-radius: 200px;
     border: 3px solid black;
     box-shadow: 5px 8px 4px #000000;
-    backdrop-filter: blur(2xl); /* backdrop-blur-2xl */
+    backdrop-filter: blur(20px); /* backdrop-blur-2xl */
   }
 
   .menu-links {
