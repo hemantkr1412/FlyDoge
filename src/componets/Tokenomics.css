@@ -16,7 +16,7 @@
     align-items: center;
     padding: 20px;
     border-radius: 12px;
-    background-image: url('/src/assets/tokonomicsBG.svg'); 
+    background-image: url('/tokonomicsBG.svg'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -140,7 +140,7 @@
   .tokenomics-ca-prefix,
   .tokenomics-ca-address {
     text-shadow: 1px 3px 4px #ffbc6d;
-    font-size: 32px;
+    font-size: 22px;
     line-height: 44.8px;
   }
   
@@ -267,7 +267,7 @@
       .tokenomics-ca-prefix,
       .tokenomics-ca-address {
         text-shadow: 1px 3px 4px #ffbc6d;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         line-height: 19.8px;
       }
       #TP1C1{

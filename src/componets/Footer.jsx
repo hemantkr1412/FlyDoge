@@ -7,20 +7,22 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-left">
           <img src={"/footerlogo.svg"} alt="" />
-          <p className="disclaimer">
-            Disclaimer
-            <br />
-            $ADOGE is a meme token made for fun
-          </p>
         </div>
         <div className="footer-right">
-          <img className="frame" alt="Frame" src="https://c.animaapp.com/MIx9ki2W/img/frame-21.svg" />
-          <div className="buy-container2">
+          <img className="frame" alt="Frame" src="Xicon.svg" />
+          <img className="frame" alt="Frame" src="TeliIcon.svg" />
+          {/* <div className="buy-container2">
             <div className="buy-content2">
               <div className="buy-text2">Buy $ADOGE</div>
             </div>
-          </div>
+          </div> */}
         </div>
+      </div>
+      <div>
+      <p className="disclaimer">
+            Disclaimer :$ADOGE is a meme token made for fun
+        </p>
+        <p className="copyRight">&copy; <span id="year">2024</span> AirDoge. All rights reserved.</p>
       </div>
     </div>
   );

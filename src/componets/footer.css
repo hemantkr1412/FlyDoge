@@ -29,7 +29,7 @@
     font-weight: 500;
     color: black;
     font-size: 22px;
-    text-align: justify;
+    text-align: center;
     line-height: 30.8px;
     max-height: 11em;
     overflow: hidden;
@@ -89,7 +89,13 @@
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
   }
-
+  .copyRight{
+    text-align: center;
+  padding: 10px;
+  /* background-color: #f1f1f1; */
+  font-size: 14px;
+  color: #333;
+  }
   @media screen and (max-width: 1050px) {
     .footer-container {
         padding-top: 10px;
@@ -136,12 +142,12 @@
         -webkit-box-orient: vertical;
       }
       .disclaimer {
-       display: none;
+       display: block;
       }
-      .frame{
+      /* .frame{
         width: 150px;
         height: 40px;
-      }
+      } */
       .footer-right {
         gap: 2px;
       }

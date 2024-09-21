@@ -71,11 +71,28 @@ const Howtobuy = () => {
             </div>
             </div>
             <div className="how-to-buy-cardSub2">
-            <p>
-              Go to ASTRA dex, connect your wallet, and provide the AM token CA
-              <br/>
-              mentioned above, then press swap.
-            </p>
+              <p style={{
+            
+              }}>
+                1. Visit Astra DEX.  <a href="https://star-fleet.io/astra/swap" target="_blank" className="underline">
+                https://star-fleet.io/astra/swap
+                </a>
+              </p>
+              <p style={{
+                marginTop:"5px"
+              }}>
+                2. Paste the AirDoge contract address: 0x48437113D6d4808bD281F50eEe4b87D4c58D2557 to display the AirDoge token.
+              </p>
+              <p style={{
+                marginTop:"5px"
+              }}>
+                3. Go to Settings, enable Expert Mode, and set slippage to 7% at least.
+              </p>
+              <p style={{
+                marginTop:"5px"
+              }}>
+                5.Click Swap
+              </p>
             </div>
           </div>
         </div>

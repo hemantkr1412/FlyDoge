@@ -4,7 +4,7 @@
     padding-bottom: 4rem;
     background-color: white; /* Equivalent to bg-white */
     margin-top: 2.5rem;      /* Equivalent to mt-10 */
-    background-image: url('/src/assets/roadmapbg.svg'); /* Background image, equivalent to bg-roadmap-bg */
+    background-image: url('/roadmapbg.svg'); /* Background image, equivalent to bg-roadmap-bg */
     background-size: cover;  /* Equivalent to bg-cover */
     min-height: 100vh;       /* Equivalent to min-h-screen */
   }
@@ -13,7 +13,7 @@
     margin-top: 4rem;
     display: none;
     width: 100%;
-    background-image: url('/src/assets/tokenMobilBG.svg');
+    background-image: url('/tokenMobilBG.svg');
     min-height: 100vh;      
      /* Background image, equivalent to bg-roadmap-bg */
     background-size: cover; 

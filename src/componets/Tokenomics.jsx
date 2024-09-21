@@ -48,7 +48,7 @@ const Tokenomics = () => {
               <div className='tokenomics-ca-text'>
                 <div className="tokenomics-ca-prefix">CA-</div>
                 <div className="tokenomics-ca-address">
-                  0X17111XXXXXXXXXXXXXXXXXXXXXX
+                0x48437113D6d4808bD281F50eEe4b87D4c58D2557
                 </div>
               </div>
             </div>

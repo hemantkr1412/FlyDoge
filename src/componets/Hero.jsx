@@ -1,6 +1,6 @@
 
 import "./hero.css";
-const Hero = () =>{
+const Hero = ({dogeData}) =>{
     return(
     <div className="herosectionMain">
         <div className="herosectionTop">
@@ -19,15 +19,40 @@ const Hero = () =>{
                 <div class="info-container">
                     <div class="info-box">
                     <div class="info-title">Price</div>
-                    <div class="info-value">$0.0188</div>
+                    <div class="info-value">${dogeData.price_in_usdt}</div>
                     </div>
                     <div class="info-box">
                     <div class="info-title">Market Cap</div>
-                    <div class="info-value">$100M</div>
+                    <div class="info-value">${dogeData.market_cap}</div>
                     </div>
                     <div class="info-box">
                     <div class="info-title">Tokens Burned</div>
-                    <div class="info-value">45M</div>
+                    <div class="info-value">{dogeData.curr_tokens_burnt}</div>
+                    </div>
+                </div>
+                <div class="info-containerMobile">
+                    <div style={{
+                        width:"100%"
+                    }}>
+                        <div class="info-box">
+                            <div class="info-title">Price</div>
+                            <div class="info-value">${dogeData.price_in_usdt}</div>
+                        </div>
+                    </div>
+                    <div style={{
+                        width:"100%",
+                        display:"flex",
+                        gap:"1rem",
+                        marginTop:"1rem"
+                    }}>
+                        <div class="info-box">
+                            <div class="info-title">Market Cap</div>
+                            <div class="info-value">${dogeData.market_cap}</div>
+                        </div>
+                        <div class="info-box">
+                            <div class="info-title">Tokens Burned</div>
+                            <div class="info-value">{dogeData.curr_tokens_burnt}</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -37,9 +62,10 @@ const Hero = () =>{
         <div className="herosectionabout">
            
                 <div className='herosectionaboutSubdiv'>
-                    <div className="lg:self-start [text-shadow:5px_8px_4px_#2d2d7280] [-webkit-text-stroke:4px_#1f1f67] [font-family:'Peralta',Helvetica] font-normal text-[#ffbc6c] text-[80px] text-center tracking-[0] leading-[89.6px] whitespace-nowrap [-webkit-line-clamp:1] overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-box-orient:vertical]">
+                <div class="about">
                     ABOUT
-                    </div>
+                </div>
+
 
                     <p className="aboutParaGraph">
                     At AirDoge, we believe that a meme can be more than just fun—it can fuel change.
@@ -47,7 +73,7 @@ const Hero = () =>{
                     purpose. Our mission goes beyond the blockchain: we’re committed to protecting
                     animals, nurturing the environment, and empowering the underprivileged.
                     <br />
-                    <br />
+                    {/* <br /> */}
                     Every token you hold contributes to social good, from rescuing animals to
                     planting trees and supporting children and women in need. AirDoge isn’t just a
                     memecoin; it’s a movement for a better world, where crypto meets compassion.
