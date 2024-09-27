@@ -6,6 +6,7 @@ import Howtobuy from './componets/HowToBuy';
 import Roadmap from './componets/RoadMap';
 import Navbar from './componets/Navbar';
 import Footer from './componets/Footer';
+import GoogleTagManager from '../googleAnalytics';
 
 function App() {
   const [dogeData, setDogeData] = useState(
@@ -59,6 +60,7 @@ function App() {
 
   return (
     <div>
+      <GoogleTagManager />
       <Navbar />
       <Hero dogeData={dogeData} />
       <Tokenomics />
