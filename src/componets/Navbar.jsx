@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./Navbar.css"
 // import BuyDoge from "./Buydoge";
 const Navbar = () => {
@@ -13,14 +13,17 @@ const Navbar = () => {
       {/* Logo and Heading */}
       <div class="logo-container">
         <img
-            class="logo"
-            alt="Logo"
-            src="https://c.animaapp.com/MIx9ki2W/img/logo-1-1@2x.png"
+          class="logo"
+          alt="Logo"
+          src="fdogelogo.png"
+          style={{
+            borderRadius: "50%",
+          }}
         />
         <div class="heading">
-            AirDoge
+          FlyDoge
         </div>
-        </div>
+      </div>
 
 
       {/* <div className='flex items-center gap-2 relative flex-[0_0_auto]'>
@@ -62,10 +65,10 @@ const Navbar = () => {
       </div> */}
       <div class="menu-container">
         <div class="menu-links">
-            <a class="menu-link" href='#'>Home</a>
-            <a class="menu-link" href='#tokenomics'>Tokenomics</a>
-            <a class="menu-link" href='#how_to_buy'>How to buy?</a>
-            <a class="menu-link" href='#roadmap'>Roadmap</a>
+          <a class="menu-link" href='#'>Home</a>
+          <a class="menu-link" href='#tokenomics'>Tokenomics</a>
+          {/* <a class="menu-link" href='#how_to_buy'>How to buy?</a> */}
+          <a class="menu-link" href='#roadmap'>Roadmap</a>
         </div>
       </div>
 
@@ -90,30 +93,30 @@ const Navbar = () => {
         </button>
       </div> */}
 
-        <div className="menu-button">
+      <div className="menu-button">
         <button className="toggle-button" onClick={toggleMenu}>
-           {!isMenuOpen ? <svg
+          {!isMenuOpen ? <svg
             className="icon"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg">
             <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16m-7 6h7"></path>
-            </svg>
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
             :
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" width="24" height="24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-               <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="18" y1="6" x2="6" y2="18"></line>
               <line x1="6" y1="6" x2="18" y2="18"></line>
             </svg>
-           }
+          }
 
 
         </button>
-        </div>
+      </div>
 
 
 
@@ -144,32 +147,32 @@ const Navbar = () => {
         </div>
       )} */}
 
-        {isMenuOpen && (
+      {isMenuOpen && (
         <div className="menu">
-            <a className="menu-link" href="#">
+          <a className="menu-link" href="#">
             Home
-            </a>
-            <a className="menu-link" href="#tokenomics">
+          </a>
+          <a className="menu-link" href="#tokenomics">
             Tokenomics
-            </a>
-            <a className="menu-link" href="#how_to_buy">
+          </a>
+          {/* <a className="menu-link" href="#how_to_buy">
             How to buy?
-            </a>
-            <a className="menu-link" href="#roadmap">
+          </a> */}
+          <a className="menu-link" href="#roadmap">
             Roadmap
-            </a>
+          </a>
         </div>
-        )}
+      )}
 
 
       {/* BuyDoge Button */}
       <div class="buy-container">
-        <div onClick={() =>{
-            window.open("https://star-fleet.io/astra/swap")
+        <div onClick={() => {
+          window.open("https://pump.fun/6RkQH75DvpFQp5MrM718qBrqjGij25GXhh2M85sHpump")
         }} class="buy-text">
-            Buy $ADOGE
+          Buy $FDOGE
         </div>
-        </div>
+      </div>
 
     </div>
   );

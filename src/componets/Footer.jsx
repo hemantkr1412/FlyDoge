@@ -6,14 +6,21 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-content">
         <div className="footer-left">
-          <img src={"/footerlogo.svg"} alt="" />
+          <img className="footerlogo" src={"/fdogelogo.png"} style={{
+            width: "70px",
+            borderRadius: "50%"
+          }}
+            alt="" />
+          <div class="heading">
+            FlyDoge
+          </div>
         </div>
         <div className="footer-right">
-          <img onClick={() =>{
-            window.open("https://x.com/AirDogeBarks")
+          <img onClick={() => {
+            window.open("https://x.com/flydoge_sol")
           }} className="frame" alt="Frame" src="Xicon.svg" />
-          <img onClick={() =>{
-            window.open("https://t.me/+eOkt0nyuxWthYjE9")
+          <img onClick={() => {
+            window.open("")
           }} className="frame" alt="Frame" src="TeliIcon.svg" />
           {/* <div className="buy-container2">
             <div className="buy-content2">
@@ -23,10 +30,10 @@ const Footer = () => {
         </div>
       </div>
       <div>
-      <p className="disclaimer">
-            Disclaimer :$ADOGE is a meme token made for fun
+        <p className="disclaimer">
+          Disclaimer :$FlyDoge is a meme token made for fun
         </p>
-        <p className="copyRight">&copy; <span id="year">2024</span> AirDoge. All rights reserved.</p>
+        <p className="copyRight">&copy; <span id="year">2024</span> FlyDoge All rights reserved.</p>
       </div>
     </div>
   );

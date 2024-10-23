@@ -12,7 +12,7 @@ function App() {
   const [dogeData, setDogeData] = useState(
     {
       price_in_usdt: "Loading..",
-      curr_tokens_burnt:"Loading..",
+      curr_tokens_burnt: "Loading..",
       current_supply: "Loading..",
       market_cap: "Loading.."
     }
@@ -40,7 +40,7 @@ function App() {
           throw new Error('Failed to fetch data');
         }
         const data = await response.json();
-        
+
         // Format the numbers
         data.curr_tokens_burnt = formatNumber(data.curr_tokens_burnt);
         data.current_supply = formatNumber(data.current_supply);
@@ -64,7 +64,7 @@ function App() {
       <Navbar />
       <Hero dogeData={dogeData} />
       <Tokenomics />
-      <Howtobuy />
+      {/* <Howtobuy /> */}
       <Roadmap />
       <Footer />
     </div>
