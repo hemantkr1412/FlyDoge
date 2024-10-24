@@ -86,7 +86,8 @@ const RoadmapBox = () => {
     // { title: "01", subtitle: "AirDAO Markets Mainnet Launch" },
     // { title: "02", subtitle: "AirPAD Mainnet Launch" },
     { title: "01", subtitle: `"I am FlyDoge" NFT Series` },
-    { title: "02", subtitle: `First On-Chain Game` },
+    { title: "02", subtitle: `Multiple On-Chain Game` },
+    { title: "03", subtitle: `Web3 Prediction Markets` },
     // { title: "05", subtitle: "AirDAO Markets Web2 Users Onboarding" },
   ];
 
