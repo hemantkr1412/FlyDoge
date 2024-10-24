@@ -77,8 +77,8 @@ const Hero = ({ dogeData }) => {
 
 
                     <p className="aboutParaGraph">
-                        AtFlyDoge, we believe that a meme can be more than just fun—it can fuel change.
-                        Powered by the AirDAO network,FlyDoge is a community-driven memecoin with a
+                        At FlyDoge, we believe that a meme can be more than just fun—it can fuel change.
+                        Powered by the Solana network,FlyDoge is a community-driven memecoin with a
                         purpose. Our mission goes beyond the blockchain: we’re committed to protecting
                         animals, nurturing the environment, and empowering the underprivileged.
                         <br />

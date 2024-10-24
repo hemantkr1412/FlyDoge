@@ -58,18 +58,18 @@ const Tokenomics = () => {
                   <div className='tokenomics-card-inner'>
                     <div className='tokenomics-card-content'>
                       <div className="tokenomics-card-header">Taxes</div>
-                      <div className="tokenomics-card-value">5/5</div>
+                      <div className="tokenomics-card-value">0/0</div>
                     </div>
                   </div>
                 </div>
-                <div className='tokenomics-card'>
+                {/* <div className='tokenomics-card'>
                   <div className='tokenomics-card-inner'>
                     <div className='tokenomics-card-content'>
                       <div className="tokenomics-card-header">LIQUIDITY</div>
                       <div className="tokenomics-card-value">Burned</div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="tokenMobileImg">
                 <img src={"/token1.svg"} alt='Tokenomics' />
