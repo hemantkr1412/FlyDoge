@@ -20,7 +20,7 @@ const Footer = () => {
             window.open("https://x.com/flydoge_sol")
           }} className="frame" alt="Frame" src="Xicon.svg" />
           <img onClick={() => {
-            window.open("")
+            window.open("https://t.co/MqW7E73hNs")
           }} className="frame" alt="Frame" src="TeliIcon.svg" />
           {/* <div className="buy-container2">
             <div className="buy-content2">
