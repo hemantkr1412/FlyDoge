@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-content">
         <div className="footer-left">
-          <img className="footerlogo" src={"/fdogelogo.png"} style={{
+          <img className="footerlogo" src={"/813.png"} style={{
             width: "70px",
             borderRadius: "50%"
           }}
