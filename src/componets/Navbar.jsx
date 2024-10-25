@@ -15,7 +15,7 @@ const Navbar = () => {
         <img
           class="logo"
           alt="Logo"
-          src="fdogelogo.png"
+          src="813.png"
           style={{
             borderRadius: "50%",
           }}

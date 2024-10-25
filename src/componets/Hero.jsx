@@ -13,7 +13,7 @@ const Hero = ({ dogeData }) => {
                         transition={{ type: "spring", stiffness: 100, damping: 20 }} // Smooth spring animation
                     // Keep it fixed while moving
                     >
-                        <img src="/fdogeHeroSectionBG.png" />
+                        <img src="/865-removebg-preview.png" />
                     </motion.div>
                 </div>
                 <div className="herosectionTopSubdiv2">
@@ -99,7 +99,7 @@ const Hero = ({ dogeData }) => {
                     </div>
                     <img
                         // id='C2I'
-                        src={"20.png"}
+                        src={"879.png"}
                         alt='C2 Image'
                         style={{
                             borderRadius: "50%"
